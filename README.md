@@ -12,4 +12,4 @@ More Info
 
 For more information please read here: http://www.virtu-al.net/vcheck-pluginsheaders/vcheck/
 
-For an example vSphere output (doesnt contain all info) click here http://virtu-al.net/vcheck/ExamplePages/vCloudAir_vCheck.htm
+For an example output click here http://virtu-al.net/vcheck/ExamplePages/vCloudAir_vCheck.htm
