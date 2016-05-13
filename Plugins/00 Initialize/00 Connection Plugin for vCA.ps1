@@ -20,7 +20,7 @@ if (!(get-Module -name VMware.VimAutomation.PCloud -erroraction silentlycontinue
 Write-CustomOut "Connecting to vCloud Air"
 
 $ConnectvCA = Connect-PIServer
-$CIConnection = Get-PIDatacenter | Connect-CIServer
+$CIConnection = Get-PIDatacenter | Out-GridView -OutputMode Multiple | Connect-CIServer
 
 if (-not ($CIConnection | Select -first 1).IsConnected) {
 	Write-Host "Unable to connect to vCloud Air, please ensure you have altered the vCloud Air server address correctly "
